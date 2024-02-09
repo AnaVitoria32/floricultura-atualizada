@@ -1,0 +1,72 @@
+.sobre_nós{
+    background-color: var(--roxo--de--fundo);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.banner__titulo__produto{
+    font-size:30px;
+    font-weight: 400;
+    padding-top: 2em;
+    text-align: center;
+    font-family: var(--fonte--títulos);
+    color: var(--cor--da--letra);
+}
+
+.produto__paragrafo{
+    font-weight:400;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-bottom: 3em;
+    font-size: 22px;
+    font-family: var(--fonte--títulos);
+    color: var(--cor--da--letra);
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .banner__titulo__produto{
+        font-size:30px;
+        font-weight: 400;
+        padding-top: 2em;
+        text-align: center;
+        font-family: var(--fonte--títulos);
+        color: var(--cor--da--letra);
+    }
+    
+    .produto__paragrafo{
+        font-weight:400;
+        padding-top: 1em;
+        padding-left: 0.5em;
+        padding-bottom: 3em;
+        font-size: 25px;
+        font-family: var(--fonte--títulos);
+        color: var(--cor--da--letra);
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .banner__titulo__produto{
+        font-size:70px;
+        font-weight: 400;
+        padding-top: 2em;
+        text-align: center;
+        font-family: var(--fonte--títulos);
+        color: var(--cor--da--letra);
+    }
+    
+    .produto__paragrafo{
+        font-weight:400;
+        padding-top: 1em;
+        padding-left: 0.5em;
+        padding-bottom: 3em;
+        font-size: 50px;
+        font-family: var(--fonte--títulos);
+        color: var(--cor--da--letra);
+        text-align: center;
+    }
+}

@@ -1,0 +1,132 @@
+.banner{
+    background-image: url("../img/fundoverdadeiro.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--cor--da--letra);
+    font-family: var(--fonte--títulos);
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__titulo{
+    font-size:40px;
+    font-weight: 400;
+    padding-top: 1em;
+    padding-left: 0.5em;
+}
+
+.banner__titulo1{
+    font-size:40px;
+    font-weight: 400; 
+    padding-top: 0.2em;
+    padding-left: 1.6em;
+}
+
+.banner__texto{
+    font-weight:400;
+    padding-top: 0.9em;
+    padding-left: 1.1em;
+    font-size: 21px;
+}
+
+.botao__pesquisa{
+    width: 100px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 21px;
+    display: block;
+    margin-left: 1em;
+    margin-top: 4em;
+    font-family: var(--fonte--títulos);
+    color: var(--cor--da--letra);
+    border-radius: 15px;
+    border:none;
+    background-image: linear-gradient(to bottom right,
+    #CDBEFF 50%, #FFF3DA 50%);
+}
+
+@media screen and (min-width: 1024px){
+    .banner__titulo{
+        font-size:80px;
+        font-weight: 400;
+        padding-top: 2em;
+        padding-left: 2em;
+    }
+
+    .banner__titulo1{
+        font-size:70px;
+        font-weight: 400; 
+        padding-top: 0.2em;
+        padding-left: 2.6em;
+    }
+
+    .banner__texto{
+        font-weight:400;
+        padding-top: 0.9em;
+        padding-left: 4em;
+        font-size: 40px;
+    }
+
+    .botao__pesquisa{
+        width: 100px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 21px;
+        display: block;
+        margin-left: 6.5em;
+        margin-top: 14em;
+        font-family: var(--fonte--títulos);
+        color: var(--cor--da--letra);
+        border-radius: 12px;
+        border:none;
+        background-image: linear-gradient(to bottom right,
+        #CDBEFF 50%, #FFF3DA 50%);
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .banner{
+        background-image: url("../img/fundoverdadeiro.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: var(--cor--da--letra);
+        font-family: var(--fonte--títulos);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner__titulo{
+        font-size:150px;
+        font-weight: 400;
+        padding-top: 1em;
+        padding-left: 2em;
+    }
+
+    .banner__titulo1{
+        font-size:140px;
+        font-weight: 400; 
+        padding-top: 0.2em;
+        padding-left: 3em;
+    }
+
+    .banner__texto{
+        font-weight:400;
+        padding-top: 0.9em;
+        padding-left: 3.5em;
+        font-size: 80px;
+    }
+
+    .botao__pesquisa{
+        width: 20%;
+        height: 80px;
+        font-size: 70px;
+        margin-left: 7em;
+        margin-top: 5em;
+        border-radius: 15px;
+        border:none;
+        display: inline-block;
+        background-image: linear-gradient(to bottom right,
+        #CDBEFF 50%, #FFF3DA 50%);
+    }
+}
+

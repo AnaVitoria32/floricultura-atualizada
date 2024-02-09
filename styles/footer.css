@@ -1,0 +1,23 @@
+.rodape{
+    background-color: var(--cor--de--fundo);
+}
+
+.paragarfo__rodape{
+    font-family: var(--fonte--títulos);
+    color: var(--cor--da--letra);
+    font-weight:400;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+@media screen and (min-width: 1728px){
+    .paragarfo__rodape{
+        font-family: var(--fonte--títulos);
+        color: var(--cor--da--letra);
+        font-weight:400;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 2em;
+    }
+}
