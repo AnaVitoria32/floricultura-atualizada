@@ -1,0 +1,20 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/produtos.css");
+@import url("styles/inscreva.css");
+@import url("styles/footer.css");
+@import url("styles/sobre.css");
+
+:root{
+    --cor--de--fundo: #FFF3DA;
+    --roxo--de--fundo: #CDBEFF;
+    --cor--da--letra: #8D74E4;
+    --fonte--títulos: "Lilita One";
+    --fonte--textos: "Inknut Antiqua";
+}
+
+body{
+    font-family: var(--fonte--títulos);
+    font-size: 16px;
+    font-weight: 400;
+}

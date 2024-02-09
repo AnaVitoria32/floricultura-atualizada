@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOR DE VIDA floricultura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Inknut+Antiqua:wght@300&display=swap" rel="folha de estilo">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=&family=Lilita+One&familydisplay=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header class="cabeçalho">
+       <div class="container">
+         <input type="checkbox" id="menu" class="container__botao">
+         <label for="menu">
+            <span class="cabeçalho__menu-hamburguer  container__imagem"></span>
+         </label>
+         <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Mini buquês</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ornamentação de casamento</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Buquês de primavera</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Sobre nós</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Orçamento</a></li>
+         </ul>
+         <img src="img/FLOR DE VIDA floricultura (2).svg" alt="Logo da Floricultura" class="container__imagem">
+       </div>
+
+       <ul class="opções">
+          <input type="checkbox" id="opções-menu" class="opções__botao">
+          <label for="opções-menu">
+             <li class="opções__item">Categorias</li>
+          </label>
+
+          <ul class="lista-menu">
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Mini buquês</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ornamentação de casamento</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Buquês de primavera</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Orçamento</a></li>
+         </ul>
+
+          <li class="opções__item"><a href="#" class="opções__link">Sobre nós</a></li>
+       </ul>
+
+       <div class="container">
+           <a href="#">
+             <img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem">
+           </a>
+           <a href="#">
+             <img src="img/Usuario.svg" alt="Usuário" class="container__imagem">
+           </a>
+       </div>
+
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">NOVA</h2>
+        <h2 class="banner__titulo1">COLEÇÃO</h2>
+        <p class="banner__texto">Buquês da primavera</p>
+        <input type="button"  name="botao-pesquisa"   class="botao__pesquisa" value="Compre já">
+    </section>
+    <section class="produtos">
+      <h2 class="produtos__titulo">PRODUTOS EM DESTAQUE</h2>
+        <!-- Slider main container -->
+      <div class="swiper">
+          <!-- If we need pagination -->
+         <div class="swiper-pagination"></div>
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+             <!-- Slides -->
+             <div class="swiper-slide"><img src="img/minibuquê.svg" alt="mini buquês"></div>
+             <div class="swiper-slide"><img src="img/ornamentacao.svg" alt="buquês de primavera"></div>
+             <div class="swiper-slide"><img src="img/buqueprima.svg" alt="buquês de primavera"></div>
+             <div class="swiper-slide"><img src="img/presentear.svg" alt="presentear"></div>
+         </div>
+  
+         <!-- If we need navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+      <div>
+        <input type="button"  name="botao-pesquisa"   class="botao__produtos" value="EXPLORE">
+     </div>
+    </section>
+
+    <section class="sobre_nós">
+      <h2 class="banner__titulo__produto">SOBRE NÓS</h2>
+      <p class="produto__paragrafo">Somos uma floricultura voltada principalmente para festas de casamaneto e aniversários.</p>
+    </section>
+
+    <section class="inscreva">
+       <h2 class="titulo__inscreva">FAÇA PARTE DE NOSSO CLUBE</h2>
+       <p class="paragrafo__inscreva">RECEBA INFORMAÇÕES E PROMOÇÕES INCRIVEIS!</p>
+       <input type="email"  name="email-cadastro"   class="email__inscreva" placeholder="Email">
+       <input type="button"  name="botao-pesquisa"   class="botao__inscreva" value="Enviar">
+    </section>
+    <footer class="rodape">
+        <p class="paragarfo__rodape">Desenvolvido por Ana Vitória</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+     const swiper = new Swiper('.swiper', {
+         spaceBetween: 10,
+         slidesPerView: 2,
+        });
+    </script>
+</body>
+</html>
